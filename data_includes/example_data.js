@@ -3,7 +3,7 @@ PennController.ResetPrefix(null);
 
 var items = [
     ["trial", "PennController", PennController(
-        newInput("alternative", "text")
+        newTextInput("alternative", "text")
             .settings.before("I thought the weather was warm, but it really is")
             .print()
         ,
